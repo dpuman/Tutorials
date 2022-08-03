@@ -1,6 +1,6 @@
 a_122 = '''harry'''
 # a = 'harry'
-# a = "harry"
+a = "harry"
 b = 345
 c = 45.32
 d = True
