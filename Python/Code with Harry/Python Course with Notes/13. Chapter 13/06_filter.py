@@ -1,5 +1,9 @@
 # Filter Syntax: list(filter(function, list))
-from re import T
+# from re import T
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 89, 98]
+
+# True returns the value
 
 
 def greater_than_5(num):
@@ -9,15 +13,17 @@ def greater_than_5(num):
         return False
 
 
+print(list(filter(greater_than_5, l)))
+
+
 def g10(num): return num > 10
 
 
-l = [1, 2, 3, 4, 5, 6, 7, 8, 89, 98]
+print(list(filter(g10, l)))
+
+
 test = []
 for i in l:
     test.append(greater_than_5(i))
 
 print('TEST', test)
-
-print(list(filter(greater_than_5, l)))
-print(list(filter(g10, l)))

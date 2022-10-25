@@ -1,13 +1,6 @@
-content = " "
-i = 1
-with open("log.txt") as f:
-    i+=1
-    while content:
-        content = f.readline()
-        print(content)
-
-        if 'python' in content.lower():
-            print("Yes python is present")
-            print(i)
-        else:
-            print("No python is not present")
+import os
+# f = open("./sample.txt")  # by default the mode is r
+# # data = f.read()
+# data = f.read(5)  # reads first 5 characters from the file
+# print(data)
+# f.close()

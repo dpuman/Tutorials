@@ -6,4 +6,4 @@ list1 = [3, 53, 2, False, 6.2, "Harry"]
 #     index += 1
 
 for index, item in enumerate(list1):
-    print(item, index)
+    print(index, item)

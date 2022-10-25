@@ -147,7 +147,7 @@ How to Create Hyperlinks and Use url Tag in Django (Hindi)
 Geeky Shows
 
 37
-How to include template within template using include Tag in Django (Hindi)
+How to include template within template  include Tag in Django (Hindi)
 Geeky Shows
 
 38

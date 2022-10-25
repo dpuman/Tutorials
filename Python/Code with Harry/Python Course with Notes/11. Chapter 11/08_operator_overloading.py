@@ -10,8 +10,11 @@ class Number:
         print("Lets multiply")
         return self.num * num2.num
 
+
 n1 = Number(4)
 n2 = Number(6)
+print("objects", n1, n2)
+# use to perform operation between objects
 sum = n1 + n2
 mul = n1 * n2
 print(sum)
